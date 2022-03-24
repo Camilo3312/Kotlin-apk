@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginTop="-25dp"
+        android:layout_height="450dp"
+        app:cardCornerRadius="30dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/banner_school_app"
+            android:scaleType="centerCrop"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/shadow_gray"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="0dp">
+
+           <ImageView
+               android:layout_width="150dp"
+               android:layout_height="wrap_content"
+               android:src="@drawable/logo_white"
+               android:layout_gravity="center"/>
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/title_app" />
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:background="@drawable/section"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Operaciones"
+            android:textColor="@color/text_color"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/btn_show_register_students"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:backgroundTint="@null"
+            android:textSize="25dp"
+            android:textColor="#EAEDFF"
+            android:letterSpacing="0"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textAllCaps="false"
+            android:background="@drawable/buttons"
+            android:text="Registrar estudiante"
+            />
+
+
+        <Button
+            android:id="@+id/btn_show_all_students"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:backgroundTint="@null"
+            android:textSize="25dp"
+            android:textColor="#EAEDFF"
+            android:letterSpacing="0"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textAllCaps="false"
+            android:background="@drawable/buttons"
+            android:layout_marginTop="10dp"
+            android:text="Mostrar estadisticas"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

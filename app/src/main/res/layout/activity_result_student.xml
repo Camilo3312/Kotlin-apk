@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white"
+    tools:context=".ResultStudentActivity">
+
+    <TextView
+        android:id="@+id/fullname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cristian Camilo"
+        android:textSize="50dp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/state_student"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usted gano"
+        android:textColor="@color/black"
+
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/courses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Matematicas 4 \nEspañol 5"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/average"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Su promedio fue de 3.4"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/recuperation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usted puede recuperar"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+
+        android:textSize="20dp" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

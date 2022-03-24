@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterStudentsActivity"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/logo_green"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nuevo estudiante"
+            android:textColor="@color/text_color"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="20dp"
+                >
+
+                <EditText
+                    android:id="@+id/document"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:hint="Documento"
+                    android:textColorHint="@color/color_hint"
+                    android:textColor="@color/gray_text"
+                    android:padding="15dp"
+                    android:textSize="25dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/input"
+                    />
+
+                <EditText
+                    android:id="@+id/fullname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:hint="Nombre completo"
+                    android:textColorHint="@color/color_hint"
+                    android:textColor="@color/gray_text"
+                    android:padding="15dp"
+                    android:textSize="25dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/input"
+                    />
+
+                <EditText
+                    android:id="@+id/age"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:hint="Edad"
+                    android:textColorHint="@color/color_hint"
+                    android:textColor="@color/gray_text"
+                    android:padding="15dp"
+                    android:textSize="25dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/input"
+                    />
+
+                <EditText
+                    android:id="@+id/phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:hint="Telefono"
+                    android:textColorHint="@color/color_hint"
+                    android:textColor="@color/gray_text"
+                    android:padding="15dp"
+                    android:textSize="25dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/input"
+                    />
+
+                <EditText
+                    android:id="@+id/location"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:hint="Direccion"
+                    android:textColorHint="@color/color_hint"
+                    android:textColor="@color/gray_text"
+                    android:padding="15dp"
+                    android:textSize="25dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/input"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/gray"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Registre las materia"
+                    android:textColor="@color/text_color"
+                    android:textSize="25dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <EditText
+                        android:id="@+id/course_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:hint="Nombre de la materia"
+                        android:textColorHint="@color/color_hint"
+                        android:textColor="@color/gray_text"
+                        android:padding="15dp"
+                        android:textSize="25dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/input"
+                        />
+
+                    <EditText
+                        android:id="@+id/grade"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:hint="Nota"
+                        android:textColorHint="@color/color_hint"
+                        android:textColor="@color/gray_text"
+                        android:padding="15dp"
+                        android:textSize="25dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/input"
+                        />
+
+                </LinearLayout>
+
+
+
+                <Button
+                    android:id="@+id/btn_register_course"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:backgroundTint="@null"
+                    android:textSize="20dp"
+                    android:textColor="#EAEDFF"
+                    android:letterSpacing="0"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:textAllCaps="false"
+                    android:background="@drawable/buttons"
+                    android:layout_marginTop="10dp"
+                    android:text="Registrar curso"
+                    />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_register_student"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:backgroundTint="@null"
+                android:textSize="25dp"
+                android:textColor="#EAEDFF"
+                android:letterSpacing="0"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textAllCaps="false"
+                android:background="@drawable/buttons"
+                android:layout_marginTop="10dp"
+                android:text="Registrar estudiante "
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
