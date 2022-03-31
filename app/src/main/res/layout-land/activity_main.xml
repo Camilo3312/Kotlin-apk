@@ -11,7 +11,7 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_marginTop="-25dp"
-        android:layout_height="450dp"
+        android:layout_height="250dp"
         app:cardCornerRadius="30dp">
 
         <ImageView
@@ -51,14 +51,14 @@
         android:layout_height="match_parent"
         android:layout_margin="20dp"
         android:background="@drawable/section"
-        android:orientation="vertical"
+        android:orientation="horizontal"
         android:gravity="center"
         android:padding="30dp">
 
 
         <Button
             android:id="@+id/btn_show_register_students"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:backgroundTint="@null"
             android:textSize="25dp"
@@ -75,7 +75,7 @@
 
         <Button
             android:id="@+id/btn_show_all_students"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:backgroundTint="@null"
             android:textSize="25dp"
@@ -84,25 +84,10 @@
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
             android:textAllCaps="false"
-            android:layout_marginTop="10dp"
             android:background="@drawable/buttons"
             android:text="Mostrar estadisticas"
             />
-        <Button
-            android:id="@+id/btn_show_help"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:backgroundTint="@null"
-            android:textSize="25dp"
-            android:textColor="#EAEDFF"
-            android:letterSpacing="0"
-            android:paddingTop="10dp"
-            android:paddingBottom="10dp"
-            android:textAllCaps="false"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/buttons"
-            android:text="Ayuda"
-            />
+
     </LinearLayout>
 
 </LinearLayout>

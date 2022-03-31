@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Promedio">
         <activity
+            android:name=".HelpActivity"
+            android:exported="false" />
+        <activity
             android:name=".StatisticsActivity"
             android:exported="false" />
         <activity

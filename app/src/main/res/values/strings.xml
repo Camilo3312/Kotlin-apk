@@ -3,4 +3,5 @@
     <string name="app_title">Pequeños Saltamontes</string>
     <string name="statistics">Estadisticas</string>
     <string name="students">Estudiantes</string>
+    <string name="info_help">Esta es una aplicacion desarrollada para la escuela Mis pequeños saltamontes, con la finalidad de tener gestion sobre todos los estudiantes, que consolidanda informacion necesaria para tener una vision en cuanto su rendimiento academico.</string>
 </resources>
