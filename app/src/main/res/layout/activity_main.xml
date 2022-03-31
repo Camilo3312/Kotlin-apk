@@ -67,6 +67,7 @@
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
             android:textAllCaps="false"
+            android:fontFamily="@font/alata"
             android:background="@drawable/buttons"
             android:text="Registrar estudiante"
             />
@@ -84,6 +85,7 @@
             android:paddingBottom="10dp"
             android:textAllCaps="false"
             android:layout_marginTop="10dp"
+            android:fontFamily="@font/alata"
             android:background="@drawable/buttons"
             android:text="Mostrar estadisticas"
             />
@@ -101,6 +103,7 @@
             android:layout_marginTop="10dp"
             android:background="@drawable/buttons"
             android:text="Ayuda"
+            android:fontFamily="@font/alata"
             />
     </LinearLayout>
 

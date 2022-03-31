@@ -71,6 +71,7 @@
             android:letterSpacing="0"
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
+            android:fontFamily="@font/alata"
             android:textAllCaps="false"
             android:background="@drawable/buttons"
             android:text="Registrar estudiante"
@@ -90,6 +91,22 @@
             android:textAllCaps="false"
             android:background="@drawable/buttons"
             android:text="Mostrar estadisticas"
+            android:fontFamily="@font/alata"
+            />
+
+        <Button
+            android:id="@+id/btn_show_help"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:backgroundTint="@null"
+            android:textSize="25dp"
+            android:textColor="#EAEDFF"
+            android:letterSpacing="0"
+            android:paddingTop="10dp"
+            android:textAllCaps="false"
+            android:background="@drawable/buttons"
+            android:text="Ayuda"
+            android:fontFamily="@font/alata"
             />
 
         </LinearLayout>

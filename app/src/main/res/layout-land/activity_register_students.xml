@@ -38,6 +38,7 @@
             android:textColor="@color/text_color"
             android:textSize="35dp"
             android:textStyle="bold"
+            android:fontFamily="@font/alata"
             android:layout_marginTop="10dp"/>
 
     </LinearLayout>
@@ -66,6 +67,7 @@
                     android:background="@drawable/input"
                     android:ems="10"
                     android:hint="Documento"
+                    android:fontFamily="@font/alata"
                     android:inputType="number"
                     android:padding="15dp"
                     android:textColor="@color/gray_text"
@@ -79,6 +81,7 @@
                     android:layout_marginBottom="10dp"
                     android:background="@drawable/input"
                     android:ems="10"
+                    android:fontFamily="@font/alata"
                     android:hint="Nombre completo"
                     android:inputType="text"
                     android:padding="15dp"
@@ -93,6 +96,7 @@
                     android:layout_marginBottom="10dp"
                     android:background="@drawable/input"
                     android:ems="10"
+                    android:fontFamily="@font/alata"
                     android:hint="Edad"
                     android:inputType="number"
                     android:padding="15dp"
@@ -110,6 +114,7 @@
                     android:hint="Telefono"
                     android:inputType="number"
                     android:padding="15dp"
+                    android:fontFamily="@font/alata"
                     android:textColor="@color/gray_text"
                     android:textColorHint="@color/color_hint"
                     android:textSize="25dp" />
@@ -124,6 +129,7 @@
                     android:hint="Direccion"
                     android:inputType="text"
                     android:padding="15dp"
+                    android:fontFamily="@font/alata"
                     android:textColor="@color/gray_text"
                     android:textColorHint="@color/color_hint"
                     android:textSize="25dp" />
@@ -142,6 +148,7 @@
                     android:layout_height="wrap_content"
                     android:text="Registre las materia"
                     android:textColor="@color/text_color"
+                    android:fontFamily="@font/alata"
                     android:textSize="25dp"/>
 
                 <LinearLayout
@@ -154,6 +161,7 @@
                         android:layout_height="wrap_content"
                         android:ems="10"
                         android:inputType="text"
+                        android:fontFamily="@font/alata"
                         android:hint="Nombre de la materia"
                         android:textColorHint="@color/color_hint"
                         android:textColor="@color/gray_text"
@@ -171,6 +179,7 @@
                         android:ems="10"
                         android:inputType="number"
                         android:hint="Nota"
+                        android:fontFamily="@font/alata"
                         android:textColorHint="@color/color_hint"
                         android:textColor="@color/gray_text"
                         android:padding="15dp"
@@ -191,6 +200,7 @@
                     android:textSize="20dp"
                     android:textColor="#EAEDFF"
                     android:letterSpacing="0"
+                    android:fontFamily="@font/alata"
                     android:paddingTop="10dp"
                     android:paddingBottom="10dp"
                     android:textAllCaps="false"
@@ -204,10 +214,11 @@
             <Button
                 android:layout_gravity="center"
                 android:id="@+id/btn_register_student"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:backgroundTint="@null"
                 android:textSize="25dp"
+                android:fontFamily="@font/alata"
                 android:layout_margin="30dp"
                 android:textColor="#EAEDFF"
                 android:letterSpacing="0"
