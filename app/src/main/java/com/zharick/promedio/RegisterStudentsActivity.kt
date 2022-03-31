@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
+import android.widget.Toast
 
 class RegisterStudentsActivity : AppCompatActivity() {
     val coursesStudent = mutableListOf<Courses>()
@@ -25,12 +26,21 @@ class RegisterStudentsActivity : AppCompatActivity() {
     fun pushCourses() {
         val course_nameS:EditText = findViewById(R.id.course_name)
         val gradeS:EditText = findViewById(R.id.grade)
+        if(gradeS.text.toString().toInt() > 5 || gradeS.text.toString().toInt() < 0) {
+            Toast.makeText(this, "No puede ingresar una nota mayor a 5 y menor a 0", Toast.LENGTH_LONG).show()
+        } else {
+            val courses = Courses(
+                course_nameS.text.toString(),
+                gradeS.text.toString().toInt()
+            )
+            coursesStudent.add(courses)
 
-        val courses = Courses(
-            course_nameS.text.toString(),
-            gradeS.text.toString().toInt()
-        )
-        coursesStudent.add(courses)
+            course_nameS.setText("")
+            gradeS.setText("")
+
+            Toast.makeText(this, "Nota ${coursesStudent.size} registrada", Toast.LENGTH_LONG).show()
+
+        }
     }
 
     fun pushStudent() {

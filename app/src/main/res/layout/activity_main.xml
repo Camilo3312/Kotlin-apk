@@ -69,7 +69,6 @@
             android:textAllCaps="false"
             android:background="@drawable/buttons"
             android:text="Registrar estudiante"
-            android:layout_marginRigth="20dp"
             />
 
 

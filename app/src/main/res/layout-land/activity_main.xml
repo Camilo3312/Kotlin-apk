@@ -8,6 +8,11 @@
     tools:context=".MainActivity"
     android:background="@color/white">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_marginTop="-25dp"
@@ -69,7 +74,6 @@
             android:textAllCaps="false"
             android:background="@drawable/buttons"
             android:text="Registrar estudiante"
-            android:layout_marginRigth="20dp"
             />
 
 
@@ -88,6 +92,6 @@
             android:text="Mostrar estadisticas"
             />
 
+        </LinearLayout>
     </LinearLayout>
-
 </LinearLayout>
