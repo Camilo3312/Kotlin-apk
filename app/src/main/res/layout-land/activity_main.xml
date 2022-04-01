@@ -65,17 +65,16 @@
             android:id="@+id/btn_show_register_students"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:backgroundTint="@null"
-            android:textSize="25dp"
-            android:textColor="#EAEDFF"
+            android:background="@drawable/buttons"
+            android:fontFamily="@font/alata"
             android:letterSpacing="0"
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
-            android:fontFamily="@font/alata"
-            android:textAllCaps="false"
-            android:background="@drawable/buttons"
             android:text="Registrar estudiante"
-            />
+            android:textAllCaps="false"
+            android:textColor="#EAEDFF"
+            android:textSize="25dp"
+            app:backgroundTint="@null" />
 
 
         <Button

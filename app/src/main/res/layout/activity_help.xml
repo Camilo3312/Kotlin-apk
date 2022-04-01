@@ -10,6 +10,11 @@
     android:padding="30dp"
     android:background="@color/white">
 
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:src="@drawable/logo_green"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -17,9 +22,12 @@
         android:textSize="50dp"
         android:layout_gravity="center"
         android:textStyle="bold"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/alata"
         android:textColor="@color/gray_text"/>
 
     <TextView
+        android:fontFamily="@font/alata"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/info_help"

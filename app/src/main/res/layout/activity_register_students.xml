@@ -135,6 +135,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:background="@color/gray"
+
                 android:padding="20dp">
 
                 <TextView
@@ -152,7 +153,7 @@
 
                     <EditText
                         android:id="@+id/course_name"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:ems="10"
                         android:fontFamily="@font/alata"
@@ -160,16 +161,15 @@
                         android:hint="Nombre de la materia"
                         android:textColorHint="@color/color_hint"
                         android:textColor="@color/gray_text"
-                        android:padding="10dp"
+                        android:padding="15dp"
                         android:textSize="25dp"
                         android:layout_marginTop="10dp"
-                        android:layout_marginRight="10dp"
                         android:background="@drawable/input"
                         />
 
                     <EditText
                         android:id="@+id/grade"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:ems="10"
                         android:inputType="number"

@@ -11,16 +11,14 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_marginTop="-25dp"
-        android:layout_height="450dp"
+        android:layout_height="wrap_content"
         app:cardCornerRadius="30dp">
 
         <LinearLayout
             android:id="@+id/card_result_student"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/shadow_gray"
             android:orientation="vertical"
-            android:backgroundTint="@color/red"
             android:paddingTop="50dp"
             android:paddingLeft="40dp"
             android:paddingBottom="40dp"
@@ -71,7 +69,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/alata"
-                    android:text="Usted no puede recuperar"
+                    android:text=""
                     android:textColor="@color/white"
                     android:textSize="25dp" />
 
@@ -92,6 +90,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Materias"
+            android:textColor="@color/text_color"
             android:fontFamily="@font/alata"
             android:textSize="30dp"/>
 
@@ -101,6 +100,7 @@
             android:layout_height="wrap_content"
             android:text="Matematicas 4 \nEspañol 5"
             android:textAlignment="center"
+            android:textColor="@color/text_color"
             android:fontFamily="@font/alata"
             android:textSize="40dp" />
 

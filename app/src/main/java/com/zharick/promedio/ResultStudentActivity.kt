@@ -28,16 +28,18 @@ class ResultStudentActivity : AppCompatActivity() {
 
         if(Students.stateStudent(result_prom)) {
             stateS.text = "Pasaste el periodo"
-            cardResultStudent.setBackgroundColor(Color.parseColor("#2D347E2B"))
+            cardResultStudent.setBackgroundColor(Color.parseColor("#2D8523"))
         } else {
+
+            stateS.text = "Perdiste el periodo"
 
             if(Students.recuperation(result_prom)) {
                 recuperationS.text = "Usted puede recuperar"
-                cardResultStudent.setBackgroundColor(Color.parseColor("#2EFAAA34"))
+                cardResultStudent.setBackgroundColor(Color.parseColor("#C68524"))
             }
             else {
                 recuperationS.text = "No es posible recuperar"
-                cardResultStudent.setBackgroundColor(Color.parseColor("#2E932323"))
+                cardResultStudent.setBackgroundColor(Color.parseColor("#932323"))
             }
         }
         var all_courses = ""
@@ -46,7 +48,7 @@ class ResultStudentActivity : AppCompatActivity() {
         }
 
         coursesS.text = all_courses
-        averageS.text = result_prom.toString()
+        averageS.text = "Su promedio fue de ${result_prom.toString()}"
 
         // println("${ student.document } ${ student.fullname } ${ student.phone } ${ student.courses } ")
     }
